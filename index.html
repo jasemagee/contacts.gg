@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h1>Important Guernsey Contacts</h1>
+
+{% for contact in site.data.contacts %}
+<div class="panel panel-info">
+  <div class="panel-heading">{{ contact.name }}</div>
+  <div class="panel-body">
+  {% if contact.desc and contact.desc != "" %}
+    <p>{{ contact.desc }}</p>
+  {% endif %}
+
+  {% if contact.web and contact.web != "" %}
+    <p>Web: <a href="{{ contact.web }}">{{ contact.web }}</a></p>
+  {% endif %}
+
+  {% if contact.twitter and contact.twitter != "" %}
+    <p>Twitter: <a href="https://twitter.com/{{ contact.twitter }}">{{ contact.twitter }}</a></p>
+  {% endif %}
+
+  {% if contact.facebook and contact.facebook != "" %}
+    <p>Facebook: <a href="https://www.facebook.com/{{ contact.facebook }}">{{ contact.facebook }}</a></p>
+  {% endif %}
+
+    {% for email in contact.emails %}
+    <p>{{ email.name }}: <a href="mailto:{{email.email}}">{{ email.email }}</a></p>
+    {% endfor %}
+
+    {% for num in contact.numbers %}
+    <p>{{ num.name }}: <a href="tel:{{num.tel}}">{{ num.tel }}</a></p>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

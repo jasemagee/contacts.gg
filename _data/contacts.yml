@@ -1,0 +1,59 @@
+- name: "Guernsey Police"
+  desc: ""
+  twitter: GuernseyPolice
+  facebook: guernseypolice
+  web: "http://www.guernsey.police.uk/"
+  emails:
+    - name: Control Room
+      email: "controlroom@guernsey.pnn.police.uk"
+  numbers:
+    - name: Not emergency
+      tel: "+441481725111"
+
+- name: "Princess Elizabeth Hospital"
+  desc: ""
+  numbers:
+    - name: Not emergency
+      tel: "+441481725241"
+
+- name: "St. John Ambulance & Rescue"
+  desc: ""
+  twitter: stjohngsy
+  facebook: StJohnGuernsey
+  web: "https://stjohn.gg/"
+  emails:
+    - name: General
+      email: "control@stjohn.gg"
+  numbers:
+    - name: Not emergency
+      tel: "+441481725211"
+
+- name: "Buses"
+  desc: ""
+  web: "http://www.buses.gg"
+  emails:
+    - name: "General"
+      email: "guernsey@hctgroup.org"
+  numbers:
+    - name: "General"
+      tel: "+441481700456"
+
+- name: "Guernsey Bereavement Service"
+  desc: ""
+  web: "http://www.guernseybereavementservice.com"
+  emails:
+    - name: General
+      email: "gsybereavement@cwgsy.net"
+  numbers:
+    - name: Not emergency
+      tel: "+441481257778"
+
+- name: "Alcoholics Anonymous"
+  desc: ""
+  web: "http://www.aaguernsey.info/"
+  emails:
+    - name: General
+      email: "aa_guernsey@cwgsy.net"
+  numbers:
+    - name: Not emergency
+      tel: "+441481713480"

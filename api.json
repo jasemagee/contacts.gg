@@ -1,0 +1,23 @@
+---
+---
+[{% for contact in site.data.contacts %}
+  {
+      "name": "{{ contact.name }}",
+      {% if contact.desc and contact.desc != "" %}"desc": "{{ contact.desc }}",{% endif %}
+      {% if contact.web and contact.web != "" %}"web": "{{ contact.web }}",{% endif %}
+      {% if contact.facebook and contact.facebook != "" %}"facebook": "{{ contact.facebook }}",{% endif %}
+      {% if contact.twitter and contact.twitter != "" %}"twitter": "{{ contact.twitter }}",{% endif %}
+      "emails": [{% for email in contact.emails %}
+        {
+          "name": "{{ email.name }}",
+          "email": "{{ email.email }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ],
+      "numbers": [{% for num in contact.numbers %}
+        {
+          "name": "{{ num.name }}",
+          "tel": "{{ num.tel }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ]
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}]
