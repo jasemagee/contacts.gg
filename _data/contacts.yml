@@ -31,6 +31,8 @@
 - name: "Buses"
   desc: ""
   web: "http://www.buses.gg"
+  twitter: "Buses_gg"
+  facebook: "buses.gg"
   emails:
     - name: "General"
       email: "guernsey@hctgroup.org"
@@ -45,7 +47,7 @@
     - name: General
       email: "gsybereavement@cwgsy.net"
   numbers:
-    - name: Not emergency
+    - name: General
       tel: "+441481257778"
 
 - name: "Alcoholics Anonymous"
@@ -55,5 +57,54 @@
     - name: General
       email: "aa_guernsey@cwgsy.net"
   numbers:
-    - name: Not emergency
+    - name: General
       tel: "+441481713480"
+
+- name: "Samaritans"
+  desc: ""
+  web: "http://www.samaritans.org/branches/guernsey-samaritans"
+  emails:
+    - name: General
+      email: "jo@samaritans.org"
+  numbers:
+    - name: General
+      tel: "+441481715515"
+
+- name: "Islandhealth (Doctors)"
+  desc:  ""
+  web: "http://www.islandhealth.co.uk/"
+  emails:
+    - name: General
+      email: "enquiries@health.gg"
+  numbers:
+    - name: "L'Aumone"
+      tel: "+441481256517"
+    - name: "St Sampson's"
+      tel: "+441481245915"
+    - name: "Town"
+      tel: "+441481724747"
+
+- name: "Healthcare (Doctors)"
+  desc: ""
+  web: "http://healthcare.gg"
+  numbers:
+    - name: "High Street"
+      tel: "+441481711237"
+    - name: "Rohais"
+      tel: "+441481723322"
+    - name: "Cobo"
+      tel: "+441481256404"
+    - name: "St Martins"
+      tel: "+441481237757"
+
+- name: "Queens Road Medical Practice (Doctors)"
+  desc: ""
+  web: "http://www.eqrmp.com"
+  emails:
+    - name: General
+      email: "admin@eqrmp.com"
+  numbers:
+    - name: "Queen's Road"
+      tel: "+441481724184"
+    - name: "Le Longfrie Surgery"
+      tel: "+441481264185"
